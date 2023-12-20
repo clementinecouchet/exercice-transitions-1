@@ -1,0 +1,121 @@
+#ex01 .box:hover {
+  background: #134459;
+}
+
+#ex02 .box {
+  transition-property: background;
+  transition-duration: 0.5s;
+}
+
+#ex02 .box:hover {
+  background: #134459;
+}
+
+#ex03 .box {
+  transition-property: background;
+  transition-duration: 0.5s;
+  transition-delay: 0.2s;
+}
+
+#ex03 .box:hover {
+  background: #134459;
+}
+
+#ex04 .box {
+  transition: color 0.2s, background 0.2s 0.1s;
+}
+
+#ex04 .box:hover {
+  color: aliceblue;
+  background: #134459;
+}
+
+#ex05 .box {
+  transition: color 0.5s 0.5s, background 0.2s;
+}
+
+#ex05 .box:hover {
+  color: aliceblue;
+  background: #134459;
+}
+
+#ex06 .box {
+  transition: background 0.4s;
+}
+
+#ex06 .wrapper:hover .box {
+  background: #134459;
+}
+
+#ex07 .box {
+  transition: background 0.4s;
+}
+
+#ex07 .wrapper:hover .box {
+  background: #134459;
+}
+
+#ex07 .wrapper .box:nth-child(1) {
+  transition: background 0.4s 0.2s;
+}
+
+#ex07 .wrapper .box:nth-child(2) {
+  transition: background 0.4s 0.3s;
+}
+
+#ex07 .wrapper .box:nth-child(3) {
+  transition: background 0.4s 0.5s;
+}
+
+#ex08 .wrapper,
+#ex08 .box {
+  transition: background 0.3s;
+}
+
+#ex08 .wrapper:hover {
+  background: #134459;
+}
+
+#ex08 .wrapper:hover .box {
+  background: beige;
+}
+
+#ex09 .wrapper {
+  transition: background 0.3s;
+}
+
+#ex09 .box {
+  transition: background 0.3s 0.3s;
+}
+
+#ex09 .wrapper:hover {
+  background: #134459;
+}
+
+#ex09 .wrapper:hover .box {
+  background: beige;
+}
+
+#ex10 .box {
+  transition: transform 0.2s;
+}
+
+#ex10 .box:hover {
+  transform: translateY(20px);
+}
+
+#ex11 .box {
+  transition: transform 0.2s;
+}
+
+#ex11 .box:hover {
+  transform: rotate(90deg);
+}
+
+#ex12 .box {
+  transition: transform 0.2s;
+}
+
+#ex12 .box:hover {
+  transform: scale(1.2);
+}
